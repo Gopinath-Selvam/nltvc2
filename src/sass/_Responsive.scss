@@ -1,0 +1,129 @@
+@media only screen and (min-width: 900px) {
+  .logo-container {
+    margin-left: 25px;
+  }
+  nav {
+    height: 100px;
+  }
+  .hamburger-btn {
+    display: none;
+  }
+  .nav-list {
+    position: relative;
+    height: 100px;
+    top: 0;
+    background: none;
+    float: right;
+    text-align: right;
+    margin-right: 25px;
+    transition: none;
+
+    li {
+      display: inline-block;
+      opacity: 1;
+      line-height: 100px;
+      margin: 0 20px;
+      transition: none;
+
+      a {
+        font-size: 25px;
+      }
+    }
+  }
+
+  .demo {
+    margin-top: 80px;
+
+    h1 {
+      font-size: 4vmax;
+      margin-bottom: 1vmax;
+    }
+
+    p {
+      font-size: 1.5vmax;
+    }
+
+    #room-name {
+      font-size: 25px;
+      margin: 80px 0 40px 0;
+      height: 3.5vmax;
+      width: 24vmax;
+      border-radius: 74px;
+    }
+
+    button {
+      font-size: 23px;
+      height: 3vmax;
+      width: 10vmax;
+    }
+  }
+
+  .textContent {
+    p {
+      font-size: 30px;
+      font-weight: bolder;
+    }
+  }
+
+  .center {
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    .email {
+      margin-right: 350px;
+    }
+    .password {
+      margin-right: 320px;
+    }
+    .repeat {
+      margin-right: 235px;
+    }
+
+    #password,
+    #email,
+    #repeat,
+    #date,
+    #time {
+      height: 3vmax;
+      width: 25vmax;
+    }
+
+    .login,
+    .signup {
+      margin: 15px 0 20px 0;
+      font-size: 23px;
+      height: 3vmax;
+      width: 15vmax;
+    }
+
+    .forgot-new {
+      font-size: 20px;
+    }
+  }
+
+  .center-signup {
+    margin-top: 2.5vmax;
+  }
+
+  .center-login {
+    margin-top: 5vmax;
+  }
+
+  .title {
+    font-size: 2rem;
+    margin-bottom: 50px;
+  }
+
+  .date {
+    margin-right: 310px;
+  }
+
+  .time{
+    margin-right: 307px;
+  }
+
+  .time-zone{
+    margin-right: 250px;
+  }
+}
